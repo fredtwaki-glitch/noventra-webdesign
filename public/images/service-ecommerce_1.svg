@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+<title id="title">E-commerce websites</title><desc id="desc">Online shop and mobile shopping interface</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08172B"/><stop offset="1" stop-color="#18385D"/></linearGradient>
+ <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#31A58D"/><stop offset="1" stop-color="#8EDBCB"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".20"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".05"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020914" flood-opacity=".35"/></filter>
+</defs>
+<rect width="960" height="600" rx="30" fill="url(#bg)"/>
+<circle cx="790" cy="95" r="190" fill="#31A58D" opacity=".12"/><circle cx="120" cy="540" r="190" fill="#8EDBCB" opacity=".10"/>
+
+<g filter="url(#shadow)">
+ <rect x="112" y="86" width="650" height="385" rx="24" fill="#0A1423" stroke="#8BA6CA" stroke-opacity=".65" stroke-width="5"/>
+ <rect x="132" y="106" width="610" height="345" rx="13" fill="#F7F9FD"/>
+ <rect x="132" y="106" width="610" height="42" rx="13" fill="#E8EDF5"/>
+ <circle cx="154" cy="127" r="5" fill="#F28A8A"/><circle cx="174" cy="127" r="5" fill="#F2C66D"/><circle cx="194" cy="127" r="5" fill="#69C69A"/>
+ <rect x="222" y="120" width="220" height="13" rx="6" fill="#C6D2E2"/>
+ <rect x="164" y="177" width="230" height="20" rx="8" fill="#142B49"/>
+ <rect x="164" y="210" width="190" height="10" rx="5" fill="#A9B8CB"/>
+ <rect x="164" y="230" width="150" height="10" rx="5" fill="#C7D1DE"/>
+ <rect x="164" y="263" width="110" height="30" rx="8" fill="url(#a)"/>
+ <rect x="164" y="320" width="165" height="93" rx="10" fill="#E4ECF7"/>
+ <rect x="343" y="320" width="165" height="93" rx="10" fill="#EAF0F8"/>
+ <rect x="522" y="320" width="190" height="93" rx="10" fill="#E5EAF7"/>
+ <rect x="390" y="177" width="315" height="115" rx="12" fill="url(#a)" opacity=".88"/>
+ <path d="M420 260 L478 218 L535 245 L594 198 L670 233" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+ <path d="M80 474 H794 L760 500 H112 Z" fill="#91A6C1"/>
+</g>
+<g filter="url(#shadow)">
+ <rect x="700" y="225" width="170" height="310" rx="28" fill="#07111F" stroke="#A7B9D2" stroke-width="5"/>
+ <rect x="714" y="250" width="142" height="260" rx="17" fill="#F8FAFD"/>
+ <rect x="730" y="275" width="110" height="12" rx="6" fill="#173252"/>
+ <rect x="730" y="300" width="85" height="8" rx="4" fill="#B4C1D2"/>
+ <rect x="730" y="326" width="110" height="80" rx="8" fill="url(#a)"/>
+ <rect x="730" y="420" width="110" height="13" rx="6" fill="#D7E0EC"/>
+ <rect x="730" y="444" width="75" height="13" rx="6" fill="#D7E0EC"/>
+</g>
+
+<text x="54" y="555" fill="#DCE8F8" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">E-COMMERCE WEBSITES</text>
+<text x="905" y="555" text-anchor="end" fill="#9EB4D1" font-family="Arial,sans-serif" font-size="14">NOVENTRA TECHNOLOGIES</text>
+</svg>
