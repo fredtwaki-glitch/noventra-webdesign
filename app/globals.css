@@ -38,3 +38,43 @@ h1,h2,h3,h4{font-family:Manrope,sans-serif;letter-spacing:-.04em}h1{font-size:cl
 @media(max-width:1000px){.service-image-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.price-image-wrap{height:190px}.price-card>.price-top,.price-card>.pages-pill,.price-card>ul,.price-card>.package-note,.price-card>.button{margin-left:25px;margin-right:25px}.service-image-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.service-image-grid{grid-template-columns:1fr}.service-image-wrap{height:205px}.price-image-wrap{height:180px}}
+
+
+/* First-year domain and hosting offer */
+.hero-inclusion {
+  display: grid;
+  gap: 7px;
+  max-width: 480px;
+  margin: 14px 0 0;
+  padding: 13px 15px;
+  border: 1px solid rgba(214, 182, 111, 0.55);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #e8edf5;
+  font-size: 12px;
+  line-height: 1.65;
+}
+.hero-inclusion strong {
+  color: #d6b66f;
+  letter-spacing: 0.035em;
+}
+.hero-inclusion span {
+  color: #d6dfeb;
+}
+.website-benefit-note {
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border: 1px solid #d6b66f;
+  border-radius: 10px;
+  background: #f4f1e8;
+}
+.website-benefit-note strong {
+  color: #14233f;
+  font-size: 14px;
+}
+.website-benefit-note p {
+  margin: 6px 0 0;
+  color: #344054;
+  font-size: 13px;
+  line-height: 1.7;
+}
