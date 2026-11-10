@@ -18,7 +18,12 @@ function ContactForm(){
  }
  const wa=`https://wa.me/${site.whatsapp}?text=${encodeURIComponent("Hello Noventra, I'd like to request a quote. My name is "+form.name+". "+form.description)}`;
  return <section className="section"><div className="container contact-grid"><aside className="contact-box"><span className="eyebrow">CONTACT NOVENTRA</span><h2 style={{color:"white"}}>Let's build your dream website.</h2><p>Tell us a little about your project. We'll get back to you to discuss the right approach.</p><a href={`mailto:${site.email}`}><Mail size={18}/>{site.email}</a><a href={`tel:${site.phone.replaceAll(" ","")}`}><Phone size={18}/>{site.phone}</a><a href={wa} target="_blank" rel="noreferrer"><MessageCircle size={18}/>Chat on WhatsApp</a><p style={{fontSize:11}}>Serving clients in Kenya and beyond. Call or WhatsApp us using the number above.</p></aside>
- <form className="form-card" onSubmit={submit}><h3 style={{marginTop:0}}>Project enquiry</h3><p style={{fontSize:13}}>Fields marked * are required.</p><div className="form-grid">
+ <form className="form-card" onSubmit={submit}><h3 style={{marginTop:0}}>Project enquiry</h3>
+ <div className="website-benefit-note">
+   <strong>Website design package benefit</strong>
+   <p>Basic, Standard and Advanced website design packages include free domain registration and web hosting for the first 12 months. Renewal charges apply after the first year and will be communicated before renewal.</p>
+ </div>
+ <p style={{fontSize:13}}>Fields marked * are required.</p><div className="form-grid">
  {[[ "name","Full name *","text","Your name"],["business","Business / organisation","text","Organisation name"],["email","Email address *","email","you@example.com"],["phone","Phone number *","tel","+254..."]].map(([name,label,type,placeholder])=><div className="field" key={name}><label htmlFor={name}>{label}</label><input id={name} name={name} type={type} placeholder={placeholder} required={label.includes("*")} value={(form as any)[name]} onChange={update}/></div>)}
  <div className="field"><label htmlFor="type">Website type</label><select id="type" name="type" value={form.type} onChange={update}><option value="">Select website type</option>{["Website design","Social media marketing","Business website","Portfolio","E-commerce","News / magazine","School website","SACCO / organisation","Landing page","Custom website"].map(x=><option key={x}>{x}</option>)}</select></div>
  <div className="field"><label htmlFor="package">Preferred package</label><select id="package" name="package" value={form.package} onChange={update}><option value="">Not sure yet</option>{packages.map(x=><option key={x.name}>{x.name}</option>)}</select></div>
